@@ -13,6 +13,8 @@ const Footer = () => {
         <div>
           <p className='text-white font-bold text-[24px]'>Hemanth Kumar HK</p>
           <p className='mt-1 text-secondary'>AWS & DevOps Engineer</p>
+          <p className='mt-1 text-secondary'>Email - hkhemanthkumar1806@gmail.com</p>
+          <p className='mt-1 text-secondary'>Contact - +91 9741143143</p>
         </div>
         
         <div className='flex gap-5'>
