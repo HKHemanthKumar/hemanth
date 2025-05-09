@@ -65,10 +65,6 @@ export const technologies = [
     icon:"https://skillicons.dev/icons/?i=aws",
   },
   {
-    name:"Azure",
-    icon:"https://skillicons.dev/icons/?i=azure",
-  },
-  {
     name:"Docker",
     icon:"https://skillicons.dev/icons/?i=docker",
   },
@@ -83,18 +79,6 @@ export const technologies = [
   {
     name:"Grafana",
     icon:"https://skillicons.dev/icons/?i=grafana",
-  },
-  {
-    name:"SFTP",
-    icon:"https://img.shields.io/badge/SFTP-0B3D91?style=flat-square&logo=internet-explorer&logoColor=white",
-  },
-  {
-    name:"Connect",
-    icon:"https://img.shields.io/badge/Connect_Direct-0055A4?style=flat-square&logo=ibm&logoColor=white",
-  },
-  {
-    name:"MQ",
-    icon:"https://skillicons.dev/icons/?i=rabbitmq",
   },
   {
     name:"Kafka",
