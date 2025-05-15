@@ -84,15 +84,31 @@ export const technologies = [
     name:"Kafka",
     icon:"https://skillicons.dev/icons/?i=kafka",
   },
+  {
+    name:"Helm",
+    icon:"https://assets.onecompiler.app/4387d8rjw/43gjw2gnh/helm-logo.png",
+  },
+  {
+    name:"Argo CD",
+    icon:"https://assets.onecompiler.app/4387d8rjw/43gjw2gnh/argo.png",
+  },
+  {
+    name:"Python",
+    icon:"https://skillicons.dev/icons/?i=python",
+  },
+  {
+    name:"VS Code",
+    icon:"https://skillicons.dev/icons/?i=vscode",
+  }
 ];
 
 export const experiences = [
   {
-    title: "Infrastructure Engineer",
-    company_name: "OCBC Bank (Singapore)",
-    icon: "https://companieslogo.com/img/orig/O39.SI_BIG-dde1ca6e.png?t=1729873664",
+    title: "Senior Cloud & DevOps Engineer",
+    company_name: "Pegasystems India (Bangalore)",
+    icon: "https://assets.onecompiler.app/4387d8rjw/43hszw3aw/pega%20system.jpg",
     iconBg: "#383E56",
-    date: "December 2022 - Present",
+    date: "February 2021 - Present",
     points: [
       // "Implemented Managed File Transfer Integration Solutions(MFT) for Distributed Systems using IBM Sterling Suite & Tectia to enable secure & automated data exchange & led B2B file transfers across 3000+ servers globally.",
       // "Designed solutions that handled 10,000+ daily transactions ensuring security and minimal downtime.",
@@ -110,37 +126,45 @@ export const experiences = [
       // "Provisioned infrastructure using Terraform to automate Docker orchestration & EC2 creation in AWS.",      
 
 
-      "Streamlined CI/CD pipelines with Jenkins on AWS, automating deployments via Argo CD, Kubernetes, Docker, reducing deployment time by 40% & optimizing cloud costs.",
-      "Implemented Secure, Automated B2B Managed File Transfer(MFT) middleware solutions across 3000+ distributed systems using IBM Sterling Suite, Control-M, protocols like SFTP, FTPS, AS2, & Connect Direct.",
-      "Developed & deployed scalable AWS cloud infrastructure using EC2, S3, EKS, Lambda, RDS, VPC, Route 53, DynamoDB, enhancing performance & reducing operational costs.",
-      "Automated Infrastructure as Code (IaC) using Terraform, Ansible, CloudFormation, migrated on-premises applications to AWS, improved system monitoring with Kibana, CloudWatch, Grafana, & Prometheus.",
-      "Designed SOAP & RESTful APIs on TIBCO, integrating with MQ & Kafka integration handling 10,000+ file transfers across Linux, AIX, and Windows environments."       
+      "Developed & deployed scalable AWS cloud infrastructure using EC2, S3, ELB, Auto-Scaling, AMI, Route53, RDS, Lambda, EKS, IAM, VPC, Cloud Front, Cloud Watch, and Amazon Workspaces for scalable and secure environments.",
+      "Streamlined CI/CD pipelines with Jenkins on AWS, automating deployments via Jenkins, Kubernetes, Docker, reducing deployment time by 40% & optimizing cloud costs.",
+      "Deployed and managed Kubernetes clusters on AWS (EKS) and on-premises, ensuring high availability and scalability.",
+      "Built and maintained containerized applications using Docker and Kubernetes, like managing Pods, Deployments, StatefulSets, DaemonSets, ConfigMaps, and Secrets for efficient workload orchestration.",
+      "Automated Infrastructure as Code (IaC) using Terraform, Ansible, CloudFormation, migrated on-premises applications to AWS, improved system monitoring with CloudWatch, Grafana, & Prometheus.",
+      "Troubleshooting and stabilizing the various build and deployment issues, collaborating with development teams to resolve failures and ensure smooth releases.",
+      "Infrastructure and Alerting: Developed custom Docker images, Kubernetes Helm charts, and centralized alert frameworks for New Relic and Grafana, integrating with Jenkins and Terraform for streamlined alert deployment",
+      "Cloud Integrations: Connected AWS to Grafana Cloud for unified monitoring.",
+      "Automation and Reporting: Migrated reporting to Jenkins, automated alert management with Python and Jinja2, and created custom exporters in Go for Cassandra."     
     ],
   },
   {
-    title: "Cloud Infrastructure Specialist",
-    company_name: "Siemens Healthineers (Bangalore)",
-    icon: "https://companieslogo.com/img/orig/SHL.DE-ff92833b.png?t=1720244493",
+    title: "Devops & Cloud Infrastructure Specialist",
+    company_name: "IBM India (Bangalore)",
+    icon: "https://assets.onecompiler.app/4387d8rjw/43hszw3aw/ibm-logo.webp",
     iconBg: "#383E56",
-    date: "October 2022 - December 2022",
+    date: "January 2017 - December 2020",
     points: [
-      "Developed data flows on integration platform GoAnywhereMFT",
-      "Developed CI/CD pipelines with Jenkins to efficiently automate the entire application build, test, and deployment.",
-      "Coordinated across teams to ensure seamless integration, development and testing.",
-      "Implemented TCP/IP protocols."
+      "Experienced in Managed and deployed cloud infrastructure using AWS services such as EC2, S3, ELB, Auto Scaling, IAM, CloudWatch, VPC, and Amazon Workspaces, ensuring high availability and scalability.",
+      "Configured Jenkins for continuous integration and deployment, set up Jenkins nodes, and automated build pipelines with Git, GitHub, and POLL SCM triggers to streamline development workflows.",
+      "Built and managed Docker containers and images created Dockerfiles to containerize applications, and optimized Kubernetes (EKS/AKS) deployments using Helm charts.",
+      "Designed and provisioned cloud resources using Terraform, enabling infrastructure automation and ensuring environment consistency across development, staging, and production.",
+      "Automated repetitive manual processes using Shell scripting and Python, improving operational efficiency and reducing deployment times."
   ],
   },
   {
     title: "Senior System Engineer",
-    company_name: "Infosys (Pune)",
-    icon: "https://companieslogo.com/img/orig/INFY-bf47e1fb.png?t=1720244492",
+    company_name: "ISG (Bangalore)",
+    icon: "https://assets.onecompiler.app/4387d8rjw/43hszw3aw/In-Solutions-Global-Logo.png",
     iconBg: "#383E56",
-    date: "September 2019 - October 2022",
+    date: "September 2014 - October 2016",
     points: [
-      "Designed & built integration flows, creating over 200 routing channels, configured various templates, adapters, schedulers, mailboxes, while also developing robust business processes for data exchanges.",
-      "Created Shell Scripts to automate tasks & jobs via Control-M therefore reducing downtime by 30% effectively.",
-      "Onboarded 100+ partners with protocols like SFTP, FTPS, AS2, Connect Direct, for efficient file transfers.",
+      "Developed and maintained server-side applications using Java, JSP, Servlet, JDBC & SQL, ensuring optimal performance and scalability.",
+      "Collaborated with frontend and backend teams to integrate Java Microservices with the SQL and Node.js ecosystem, improving data flow and efficiency.",
+      "Designed and optimized MySQL database queries, enhancing application performance and reducing response time.",
+      "Automated build and deployment pipelines using Jenkins and managed artifact storage with Artifactory.",
+      "Utilized GitHub for version control, contributing to code reviews and following best practices for source code management.",
       "Documented on Confluence, conducted KT sessions, & led transitions to production with minimal downtime.",
+      "Worked closely with cross-functional teams to troubleshoot issues, debug applications, and ensure high system availability."
     ],
   },
   // Add more experiences here over the time
@@ -166,7 +190,7 @@ export const projects = [
       },
     ],
     image: "images/TODO.png",
-    source_code_link: "https://github.com/nihharikadubey/NoteVault-DevOps-Powered-Todo-Application",
+    source_code_link: "https://github.com/HKHemanthKumar",
   },
   {
     name: "Wanderlust---Modern-Travel-Blog-Platform",
@@ -187,7 +211,7 @@ export const projects = [
       },
     ],
     image: "images/wanderlust.png",
-    source_code_link: "https://github.com/nihharikadubey/Wanderlust---Modern-Travel-Blog-Platform",
+    source_code_link: "https://github.com/HKHemanthKumar",
   },
   {
     name: "KubeSecOps--Enterprise-Three-Tier-Application-Platform",
@@ -208,6 +232,6 @@ export const projects = [
       },
     ],
     image: "images/kube.png",
-    source_code_link: "https://github.com/nihharikadubey/KubeSecOps--Enterprise-Three-Tier-Application-Platform",
+    source_code_link: "https://github.com/HKHemanthKumar",
   },
 ];
